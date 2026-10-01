@@ -1005,7 +1005,6 @@ PRODUCT_PACKAGES += \
     android.hardware.cas@1.2-service.xml \
     android.hardware.gpu@1.0-service.xml \
     android.hardware.health@2.1.xml \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi@1.0-service.xml \
     lights-mtk-default.xml \
     manifest.xml \
