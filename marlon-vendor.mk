@@ -995,16 +995,12 @@ PRODUCT_PACKAGES += \
     NetworkStackResOverlay \
     SensorHub \
     TetheringResOverlay \
-    android.hardware.cas@1.2-service.xml \
     android.hardware.gpu@1.0-service.xml \
-    android.hardware.health@2.1.xml \
     android.hardware.wifi@1.0-service.xml \
     lights-mtk-default.xml \
     manifest.xml \
     manifest_android.hardware.drm@1.3-service.clearkey.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    manifest_face_default.xml \
-    power-default.xml \
     vendor.mediatek.hardware.dplanner@2.0-service.xml \
     vibrator-mtk-default.xml \
     manifest_dsds.xml \
