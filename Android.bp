@@ -6005,7 +6005,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libminiui.so",
             ],
             shared_libs: [
-                "libpixelflinger",
                 "libpng",
                 "libutils",
                 "liblog",
@@ -6020,7 +6019,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libminiui.so",
             ],
             shared_libs: [
-                "libpixelflinger",
                 "libpng",
                 "libutils",
                 "liblog",
@@ -8761,7 +8759,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so",
             ],
             shared_libs: [
-                "libwebrtc_audio_preprocessing",
                 "libspeexresampler",
                 "libutils",
                 "liblog",
@@ -8776,7 +8773,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so",
             ],
             shared_libs: [
-                "libwebrtc_audio_preprocessing",
                 "libspeexresampler",
                 "libutils",
                 "liblog",
