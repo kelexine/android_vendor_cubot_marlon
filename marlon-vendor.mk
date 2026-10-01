@@ -540,14 +540,6 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferpool@2.0.1 \
     libstagefright_codecbase \
     libstagefright_framecapture_utils \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
     libstagefright_wfd_mtk \
     libEGL_mtk \
     libGLES_meow \
@@ -1007,13 +999,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.wifi.supplicant@2.0 \
     vendor.mediatek.hardware.wifi.supplicant@2.1 \
     vendor.mediatek.hardware.wifi.supplicant@2.2 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.gpu@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
     vendor.mediatek.hardware.nwk_opt@1.0 \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     GoogleNetworkStackResOverlay \
     GoogleTetheringResOverlay \
     InProcessTetheringResOverlay \
