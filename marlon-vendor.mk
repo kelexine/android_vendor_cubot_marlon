@@ -214,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -1030,8 +1029,6 @@ PRODUCT_PACKAGES += \
     audiocmdservice_atci \
     autobt \
     bip \
-    boringssl_self_test32 \
-    boringssl_self_test64 \
     ccci_fsd \
     ccci_mdinit \
     ccci_rpcd \
@@ -1041,7 +1038,6 @@ PRODUCT_PACKAGES += \
     doeapp-memtester \
     doeapp-sat \
     dtc_vendor \
-    dumpsys \
     epdg_wod \
     factory \
     fuelgauged \
