@@ -3149,49 +3149,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libalsautils",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libalsautils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libaudioutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libalsautils.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libtinyalsa",
-                "libaudioutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libaudio_param_parser-vnd",
     owner: "cubot",
     strip: {
@@ -3547,53 +3504,6 @@ cc_prebuilt_library_shared {
                 "libblisrc32_vendor",
                 "libmtkshifter_vendor",
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libaudiofoundation",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libaudiofoundation.so",
-            ],
-            shared_libs: [
-                "libaudioutils",
-                "libbase",
-                "libbinder",
-                "liblog",
-                "libmedia_helper",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaudiofoundation.so",
-            ],
-            shared_libs: [
-                "libaudioutils",
-                "libbase",
-                "libbinder",
-                "liblog",
-                "libmedia_helper",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -10512,34 +10422,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libstagefright_softomx_plugin",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libstagefright_softomx_plugin.so",
-            ],
-            shared_libs: [
-                "libstagefright_softomx",
-                "libstagefright_foundation",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libstorage_otp",
     owner: "cubot",
     strip: {
@@ -10754,30 +10636,6 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libc",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libvpx",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libvpx.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -13849,71 +13707,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster4",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster4.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "android.hardware.keymaster@4.0",
-                "libcrypto",
-                "libcutils",
-                "libbase",
-                "libhidlbase",
-                "libkeymaster_portable",
-                "libpuresoftkeymasterdevice",
-                "liblog",
-                "libutils",
-                "libkeymaster4support",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeystore-engine-wifi-hidl",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so",
-            ],
-            shared_libs: [
-                "android.system.wifi.keystore@1.0",
-                "libcrypto",
-                "liblog",
-                "libhidlbase",
-                "libcutils",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkmsetkey",
     owner: "cubot",
     strip: {
@@ -16627,31 +16420,6 @@ cc_prebuilt_library_shared {
                 "libstrongswan",
                 "libc",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libsoft_attestation_cert",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libsoft_attestation_cert.so",
-            ],
-            shared_libs: [
-                "libkeymaster_portable",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },

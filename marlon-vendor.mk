@@ -601,7 +601,6 @@ PRODUCT_PACKAGES += \
     lib_iir \
     lib_speech_enh \
     libaedv \
-    libalsautils \
     libaudio_param_parser-vnd \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
@@ -610,7 +609,6 @@ PRODUCT_PACKAGES += \
     libaudiocustparam_vendor \
     libaudiodcrflt_vendor \
     libaudiofmtconv \
-    libaudiofoundation \
     libaudioloudc \
     libaudioprimarydevicehalifclient \
     libaudiotoolkit_vendor \
@@ -779,7 +777,6 @@ PRODUCT_PACKAGES += \
     libmp4enc_sa.ca7 \
     libmp4enc_xa.ca7 \
     libncnn_32 \
-    libstagefright_softomx_plugin \
     libstorage_otp \
     libthermalalgo \
     libvc1dec_sa.ca7 \
@@ -788,7 +785,6 @@ PRODUCT_PACKAGES += \
     libvolte_xdmc_shr \
     libvp8dec_sa.ca7 \
     libvp9dec_sa.ca7 \
-    libvpx \
     libvt_custom \
     gc5025sub_mipi_raw_IdxMgr \
     gc5035_mipi_raw_IdxMgr \
@@ -884,8 +880,6 @@ PRODUCT_PACKAGES += \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
-    libkeymaster4 \
-    libkeystore-engine-wifi-hidl \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
@@ -963,7 +957,6 @@ PRODUCT_PACKAGES += \
     librilfusion \
     libsensor_custom \
     libsimaka \
-    libsoft_attestation_cert \
     libstereoinfoaccessor_vsdof \
     libstrongswan \
     libwifi-hal \
