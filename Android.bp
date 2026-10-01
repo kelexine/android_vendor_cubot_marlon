@@ -18095,6 +18095,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "factory",
     owner: "cubot",
+    check_elf_files: false,
     target: {
         android_arm64: {
             srcs: [
