@@ -1,5 +1,5 @@
 service atcid-daemon-u /vendor/bin/atcid
-    interface vendor.mediatek.hardware.atci@1.0::IAtcid default
+#    interface vendor.mediatek.hardware.atci@1.0::IAtcid default
     class hal
     class main
     socket adb_atci_socket stream 660 radio system
