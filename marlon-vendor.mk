@@ -536,10 +536,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
 PRODUCT_PACKAGES += \
-    libmedia_codeclist \
-    libstagefright_bufferpool@2.0.1 \
-    libstagefright_codecbase \
-    libstagefright_framecapture_utils \
     libstagefright_wfd_mtk \
     libEGL_mtk \
     libGLES_meow \
