@@ -1108,4 +1108,24 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
-    wpa_cli
+    wpa_cli \
+    android.hardware.audio@6.0-impl-mediatek \
+    android.hardware.bluetooth@1.0-impl-mediatek \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
+    android.hardware.health@2.0-impl-2.1 \
+    android.hardware.camera.provider@2.6-impl-mediatek \
+    android.hardware.gnss@2.1-impl-mediatek \
+    android.hardware.power-service-mediatek \
+    libdrm \
+    libhwc2on1adapter \
+    libprotobuf-cpp-full-3.9.1 \
+    libprotobuf-cpp-lite-3.9.1 \
+    libwebrtc_audio_preprocessing \
+    libeffects \
+    libeffectsconfig \
+    libnbaio_mono \
+    libpixelflinger \
+    libtinycompress \
+    libstagefright_softomx \
+    libavservices_minijail \
+    libopus
