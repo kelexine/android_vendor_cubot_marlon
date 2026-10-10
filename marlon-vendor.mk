@@ -520,6 +520,63 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
     vendor/cubot/marlon/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
 
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.face@1.0-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.faketouch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.nfc.hcef.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hcef.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.nfc.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.uicc.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.se.omapi.uicc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.uicc.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.accelerometer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.compass.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.compass.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.gyroscope.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.gyroscope.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.proximity.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.usb.host.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.vulkan.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.vulkan.version.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.ipsec_tunnels.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
+
+    vendor/cubot/marlon/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
+    vendor/cubot/marlon/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
+
 PRODUCT_PACKAGES += \
     libstagefright_wfd_mtk \
     libEGL_mtk \
