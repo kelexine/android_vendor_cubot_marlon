@@ -1,5 +1,7 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.lights-service.mediatek
+service vendor.light-default /vendor/bin/hw/android.hardware.lights-service.lineage
     class hal
     user system
     group system
     shutdown critical
+    interface aidl android.hardware.light.ILights/default
+
