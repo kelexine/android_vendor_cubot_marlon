@@ -16486,7 +16486,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal",
+    name: "libwifi-hal-mtk",
     owner: "cubot",
     strip: {
         none: true,
@@ -16494,7 +16494,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libwifi-hal.so",
+                "proprietary/vendor/lib64/libwifi-hal-mtk.so",
             ],
             shared_libs: [
                 "libbase",
@@ -19005,44 +19005,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.wifi@1.0-service-lazy",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhidlbase",
-                "liblog",
-                "libnl",
-                "libutils",
-                "libwifi-hal",
-                "libwifi-system-iface",
-                "android.hardware.wifi@1.0",
-                "android.hardware.wifi@1.1",
-                "android.hardware.wifi@1.2",
-                "android.hardware.wifi@1.3",
-                "android.hardware.wifi@1.4",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "camerahalserver",
     owner: "cubot",
     target: {
@@ -19075,42 +19037,6 @@ cc_prebuilt_binary {
                 "libhardware",
                 "libmtkcam_grallocutils",
                 "vendor.mediatek.hardware.camera.atms@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "hostapd",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/hostapd",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libcrypto",
-                "libssl",
-                "libnl",
-                "android.hardware.wifi.hostapd@1.0",
-                "android.hardware.wifi.hostapd@1.1",
-                "android.hardware.wifi.hostapd@1.2",
-                "libbase",
-                "libhidlbase",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -19542,48 +19468,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "wpa_supplicant",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/wpa_supplicant",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libcrypto",
-                "libssl",
-                "libkeystore-wifi-hidl",
-                "libkeystore-engine-wifi-hidl",
-                "libnl",
-                "android.hardware.wifi.supplicant@1.0",
-                "android.hardware.wifi.supplicant@1.1",
-                "android.hardware.wifi.supplicant@1.2",
-                "android.hardware.wifi.supplicant@1.3",
-                "libhidlbase",
-                "libutils",
-                "libbase",
-                "vendor.mediatek.hardware.wifi.supplicant@2.0",
-                "vendor.mediatek.hardware.wifi.supplicant@2.1",
-                "vendor.mediatek.hardware.wifi.supplicant@2.2",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     strip: {
         none: true,
     },

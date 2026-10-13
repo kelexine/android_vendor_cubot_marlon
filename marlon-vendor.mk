@@ -198,8 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatekv2.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
@@ -208,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/getgameserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/getgameserver.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/init.bip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
@@ -530,7 +527,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
-    vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/vendor.cubot.hardware.encore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.cubot.hardware.encore.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
@@ -1003,7 +999,7 @@ PRODUCT_PACKAGES += \
     libsimaka \
     libstereoinfoaccessor_vsdof \
     libstrongswan \
-    libwifi-hal \
+    libwifi-hal-mtk \
     libwifitest \
     libxapi_stitch \
     libxapi_vfb \
@@ -1040,7 +1036,6 @@ PRODUCT_PACKAGES += \
     SensorHub \
     TetheringResOverlay \
     android.hardware.gpu@1.0-service.xml \
-    android.hardware.wifi@1.0-service.xml \
     lights-mtk-default.xml \
     manifest.xml \
     manifest_android.hardware.drm@1.3-service.clearkey.xml \
@@ -1098,9 +1093,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.1-service-mediatekv2 \
     android.hardware.vibrator-service.mediatek \
-    android.hardware.wifi@1.0-service-lazy \
     camerahalserver \
-    hostapd \
     mtkfusionrild \
     power_native_test_v_1_0 \
     power_native_test_v_1_1 \
@@ -1114,7 +1107,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vtservice_hidl \
-    wpa_supplicant \
     ipsec_mon \
     jpegtool \
     kph \
