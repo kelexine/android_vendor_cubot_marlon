@@ -753,7 +753,6 @@ PRODUCT_PACKAGES += \
     libverno \
     libwapi \
     libwo \
-    libwpa_client \
     libwvhidl \
     libxapi_mfe \
     libxapi_portrait \
@@ -1071,7 +1070,6 @@ PRODUCT_PACKAGES += \
     fuelgauged_nvram \
     getgameserver \
     gsm0710muxd \
-    hostapd_cli \
     android.hardware.audio.service.mediatek \
     android.hardware.biometrics.face@1.0-service.example \
     android.hardware.bluetooth@1.0-service-mediatek \
@@ -1158,7 +1156,6 @@ PRODUCT_PACKAGES += \
     wlan_assistant \
     wmt_launcher \
     wmt_loader \
-    wpa_cli \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \

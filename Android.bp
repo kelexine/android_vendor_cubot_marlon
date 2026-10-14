@@ -7885,45 +7885,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwpa_client",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libwpa_client.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libwpa_client.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libwvhidl",
     owner: "cubot",
     strip: {
@@ -18263,32 +18224,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "hostapd_cli",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hostapd_cli",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.audio.service.mediatek",
     owner: "cubot",
     target: {
@@ -20632,32 +20567,6 @@ cc_prebuilt_binary {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/bin/wmt_loader",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "wpa_cli",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/wpa_cli",
             ],
             shared_libs: [
                 "libcutils",
