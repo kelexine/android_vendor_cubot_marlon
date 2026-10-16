@@ -1156,8 +1156,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.power-service-mediatek \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     libwebrtc_audio_preprocessing \
     libnbaio_mono \
     libpixelflinger
