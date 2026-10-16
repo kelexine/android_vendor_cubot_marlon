@@ -777,8 +777,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mms@1.4 \
     vendor.mediatek.hardware.mms@1.5 \
     vendor.mediatek.hardware.mtkcodecservice@1.1 \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
     vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.nvram@1.0 \
     vendor.mediatek.hardware.nvram@1.1 \
@@ -1046,7 +1044,6 @@ PRODUCT_PACKAGES += \
     aee_aedv64 \
     aee_dumpstatev \
     aeev \
-    applypatch \
     atcid \
     audiocmdservice_atci \
     autobt \
