@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "device/cubot/marlon",
         "hardware/mediatek",
+        "hardware/mediatek/libmtkperf_client",
     ],
 }
 
