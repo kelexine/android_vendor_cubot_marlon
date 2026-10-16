@@ -1167,7 +1167,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-3.9.1 \
     libwebrtc_audio_preprocessing \
     libeffects \
-    libeffectsconfig \
     libnbaio_mono \
     libpixelflinger \
     libtinycompress \
