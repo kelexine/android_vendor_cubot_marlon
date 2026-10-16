@@ -18178,38 +18178,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "android.hardware.health@2.1-service",
-    owner: "cubot",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.health@2.1",
-                "android.hardware.health@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "android.hardware.keymaster@4.0-service.trustkernel",
     owner: "cubot",
     target: {
@@ -20205,30 +20173,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.health@2.0-impl-2.1",
-    owner: "cubot",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so",
             ],
         },
     },

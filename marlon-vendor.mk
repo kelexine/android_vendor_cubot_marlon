@@ -514,14 +514,6 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/cubot/marlon/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
     vendor/cubot/marlon/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.face@1.0-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
-    vendor/cubot/marlon/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml \
@@ -563,9 +555,7 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
-    vendor/cubot/marlon/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
-    vendor/cubot/marlon/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
-    vendor/cubot/marlon/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 PRODUCT_PACKAGES += \
     libstagefright_wfd_mtk \
@@ -1070,7 +1060,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-service-mediatek \
     android.hardware.graphics.allocator@4.0-service-mediatek \
     android.hardware.graphics.composer@2.1-service \
-    android.hardware.health@2.1-service \
     android.hardware.keymaster@4.0-service.trustkernel \
     android.hardware.lights-service.mediatek \
     android.hardware.media.omx@1.0-service \
@@ -1149,7 +1138,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl-mediatek \
     android.hardware.bluetooth@1.0-impl-mediatek \
     android.hardware.graphics.mapper@4.0-impl-mediatek \
-    android.hardware.health@2.0-impl-2.1 \
     android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.power-service-mediatek \
