@@ -18173,6 +18173,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    init_rc: ["proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc"],
     relative_install_path: "hw",
     soc_specific: true,
 }
