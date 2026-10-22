@@ -17974,6 +17974,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    init_rc: ["proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc"],
     relative_install_path: "hw",
     soc_specific: true,
 }
@@ -18076,6 +18077,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    init_rc: ["proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc"],
     relative_install_path: "hw",
     soc_specific: true,
 }
@@ -18278,6 +18280,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    init_rc: ["proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc"],
     relative_install_path: "hw",
     soc_specific: true,
 }
@@ -18309,6 +18312,7 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
+    init_rc: ["proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc"],
     relative_install_path: "hw",
     soc_specific: true,
 }
