@@ -574,7 +574,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.gatekeeper@1.0-impl \
     android.hardware.graphics.composer@2.1-impl \
-    android.hardware.health@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0-impl \
@@ -1069,7 +1068,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
     android.hardware.usb@1.1-service-mediatekv2 \
-    android.hardware.health@2.1-service \
     android.hardware.vibrator-service.mediatek \
     camerahalserver \
     mtkfusionrild \
