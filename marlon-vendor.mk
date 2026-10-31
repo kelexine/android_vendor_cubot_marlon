@@ -557,7 +557,10 @@ PRODUCT_COPY_FILES += \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     vendor/cubot/marlon/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
-    vendor/cubot/marlon/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
+    vendor/cubot/marlon/proprietary/vendor/etc/permissions/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/cubot/marlon/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
+    vendor/cubot/marlon/proprietary/vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
 
 PRODUCT_PACKAGES += \
     libstagefright_wfd_mtk \
@@ -1141,4 +1144,15 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
     libwebrtc_audio_preprocessing \
     libnbaio_mono \
-    libpixelflinger
+    libpixelflinger \
+    vendor.dolby.hardware.dms@2.0-service \
+    vendor.dolby.hardware.dms@2.0-impl \
+    vendor.dolby.hardware.dms@2.0 \
+    libdapparamstorage \
+    libdeccfg \
+    libdlbdsservice \
+    libdlbpreg \
+    libspatializerparamstorage \
+    libswdap \
+    libswgamedap \
+    libswvqe
